@@ -1,0 +1,212 @@
+/* =========================
+   GENERAL PAGE
+========================= */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #111111;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    background-color: #111111;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 5px solid #2e7d32;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 35px;
+}
+
+header p {
+    color: #b7d9b9;
+    font-size: 18px;
+}
+
+
+/* =========================
+   NAVIGATION
+========================= */
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: rgb(249, 246, 246);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #4caf50;
+}
+
+
+/* =========================
+   MAIN CONTENT
+========================= */
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+
+/* =========================
+   SECTIONS
+========================= */
+
+section {
+    background-color: #ffffff;
+    margin: 30px 0;
+    padding: 30px;
+    border: 1px solid #dddddd;
+    border-left: 5px solid #2e7d32;
+}
+
+h2 {
+    color: #2e7d32;
+    border-bottom: 2px solid #111111;
+    padding-bottom: 8px;
+}
+
+h3 {
+    color: #111111;
+}
+
+
+/* =========================
+   IMAGE / BANNER
+========================= */
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #111111;
+}
+
+
+/* =========================
+   LIST
+========================= */
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+
+/* =========================
+   TABLE
+========================= */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #111111;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #111111;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e8f5e9;
+}
+
+
+/* =========================
+   FORM
+========================= */
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #111111;
+    box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border: 2px solid #2e7d32;
+}
+
+
+/* =========================
+   BUTTON
+========================= */
+
+button {
+    padding: 12px 25px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #111111;
+}
+
+
+/* =========================
+   LINKS
+========================= */
+
+a {
+    color: #2e7d32;
+}
+
+nav a {
+    color: white;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background-color: #111111;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-top: 5px solid #2e7d32;
+}
+
+footer p {
+    margin: 5px;
+}
